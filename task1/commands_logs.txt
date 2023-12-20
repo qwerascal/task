@@ -1,0 +1,15 @@
+mkdir task1
+cd task1
+mkdir users
+cd users
+touch user{1..207}.txt
+cd ..
+mkdir groups
+cd groups
+touch groups{1..69}.txt
+cd ..
+mkdir subjects
+cd subjects
+touch subject{1..50}.txt
+cd ..
+cat commands_logs.txt
